@@ -1,0 +1,21 @@
+.pio/build/tasmota32/libb38/freetype/base/ftdebug.c.o: \
+ lib/libesp32_lvgl/freetype/src/base/ftdebug.c \
+ /.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/config/sdkconfig.h \
+ include/esp32x_fixes.h \
+ lib/libesp32_lvgl/freetype/include/freetype/freetype.h \
+ lib/libesp32_lvgl/freetype/devel/ft2build.h \
+ lib/libesp32_lvgl/freetype/include/freetype/config/ftheader.h \
+ lib/libesp32_lvgl/freetype/include/freetype/config/ftconfig.h \
+ lib/libesp32_lvgl/freetype/devel/ftoption.h \
+ lib/libesp32_lvgl/freetype/devel/ftstdlib.h \
+ lib/libesp32_lvgl/freetype/include/freetype/config/integer-types.h \
+ lib/libesp32_lvgl/freetype/include/freetype/config/public-macros.h \
+ lib/libesp32_lvgl/freetype/include/freetype/config/mac-support.h \
+ lib/libesp32_lvgl/freetype/include/freetype/fttypes.h \
+ lib/libesp32_lvgl/freetype/include/freetype/ftsystem.h \
+ lib/libesp32_lvgl/freetype/include/freetype/ftimage.h \
+ lib/libesp32_lvgl/freetype/include/freetype/fterrors.h \
+ lib/libesp32_lvgl/freetype/include/freetype/ftmoderr.h \
+ lib/libesp32_lvgl/freetype/include/freetype/fterrdef.h \
+ lib/libesp32_lvgl/freetype/include/freetype/internal/ftdebug.h \
+ lib/libesp32_lvgl/freetype/include/freetype/internal/compiler-macros.h
