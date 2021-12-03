@@ -87,8 +87,12 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!!
 */
 
-
-
+// -- Project -------------------------------------
+#define PROJECT                "LAB-ROBOTICS"         // PROJECT is used as the default topic delimiter
+#define FRIENDLY_NAME          "LAB-ROBOTICS"         // [FriendlyName] Friendlyname up to 32 characters used by webpages and Alexa
+#define USE_BMP
+#define USE_DISPLAY 
+#define USE_DISPLAY_SH1106 
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
