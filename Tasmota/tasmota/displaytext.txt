@@ -1,0 +1,17 @@
+rule1 on BME280#Temperature do displaytext [f0s2p15x0y0] %value% C endon on BME280#Humidity do displaytext [x0y25] %value% % endon on tele-BME280#Pressure do displaytext [x0y50] %value% hPa endon
+ 
+ rule1 on
+ displaymodel 7
+ displaymode 0
+ teleperiod 10
+
+PwmFrequency 50
+SetOption15 0
+Pwm1 50-200 
+
+ rule1 on tele-BME280#Temperature do displaytext [s0x0y0] S@: [x25tS][x80T] [f0s2x0y13] %value% C endon on tele-BME280#Humidity do displaytext [x0y31] %value% % endon on tele-BME280#Pressure do displaytext [x0y50] %value% hPa endon
+
+
+
+MQTT:
+SetOption 19 0 autodiscovery home assistant
